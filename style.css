@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: 0;
+}
+
+.custom-checkbox { 
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: black;}
+
+
+
+  /* 체크박스 기본 스타일 제거 및 배경색 설정 */
+.custom-checkbox {
+  width: 30px; 
+  height: 30px;
+  border: 5px solid orangered; 
+  border-radius: 30px; 
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.custom-checkbox:checked {
+  background-color: orangered;
+}
+
+
+
+
+@media screen and (max-width: 704px) {
+
+}
+
+
+
+
+
+
+
+
